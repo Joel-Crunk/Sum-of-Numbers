@@ -8,7 +8,7 @@ namespace SumOfNumbers
 {
     class Program
     {
-         static void Main(string[] args)
+        static void Main(string[] args)
         {
             int sum = 0;
            
@@ -24,13 +24,10 @@ namespace SumOfNumbers
                 }
                 sum = sum + number;
 
-                Console.WriteLine($"\nSubtotal: {sum}\n\n");
-                
+                Console.WriteLine($"\nSubtotal: {sum}\n\n");  
             }
             Console.WriteLine($"The sum of these numbers is {sum}");
-
             Console.ReadLine();
-
         }
     }
 }
